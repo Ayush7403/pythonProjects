@@ -4,10 +4,10 @@ from telegram import Bot
 import asyncio
 
 IP = '192.168.1.1'
-KNOWN_DEVICES = ['e8:fb:1c:f4:93:ed', 'e8:fb:1c:f4:93:ed' ]
-TELEGRAM_BOT_TOKEN = '6504727700:AAHcIMrJ6Pmbl912w8eRk8dfwPpZrwa1H7Q'
-CHAT_ID = '-4172327288'
-
+KNOWN_DEVICES = [/*known device's mac address in string*/ ]
+TELEGRAM_BOT_TOKEN = ' '
+CHAT_ID = ''
+#telegram_bot_Token and chat id can get from telegram bot father
 class NetworkScanner:
 
     def __init__(self, ip: str):
